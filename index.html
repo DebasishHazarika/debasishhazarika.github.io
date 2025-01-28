@@ -4,65 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="pic.jpeg">
-    <title>Debasish Hazarika - Astronomer</title>
+    <title>Debasish Hazarika</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
+            background-color: #0d1117;
+            color: #c9d1d9;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             line-height: 1.6;
         }
 
         .container {
-            max-width: 1000px;
-            background-color: #ffffff;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
+            padding: 20px;
         }
 
-        .header {
-            display: flex;
-            align-items: center;
-            gap: 20px;
+        header {
+            text-align: center;
+            margin-bottom: 30px;
         }
 
-        .header img {
-            border-radius: 10px;
-            max-width: 120px;
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 3px solid #c9d1d9;
+            margin-bottom: 15px;
         }
 
-        h1 {
-            color: #0056b3;
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #58a6ff;
+        }
+
+        header p {
+            margin: 5px 0 20px;
+            font-size: 1.1rem;
+        }
+
+        section {
+            margin-bottom: 30px;
         }
 
         h2 {
-            color: #444;
-            border-bottom: 2px solid #0056b3;
+            color: #58a6ff;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #30363d;
             padding-bottom: 5px;
-            margin-top: 30px;
-        }
-
-        p {
-            text-align: justify;
         }
 
         ul {
-            list-style: disc;
-            padding-left: 20px;
+            list-style: none;
+            padding: 0;
         }
 
-        li {
-            margin-bottom: 8px;
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li strong {
+            color: #f78166;
         }
 
         a {
-            color: #0056b3;
+            color: #58a6ff;
             text-decoration: none;
         }
 
@@ -73,74 +82,86 @@
         .button {
             display: inline-block;
             padding: 10px 20px;
-            margin: 5px 0;
-            background-color: #0056b3;
-            color: white;
+            margin: 5px 5px 0 0;
+            background-color: #21262d;
+            color: #58a6ff;
             text-decoration: none;
             border-radius: 5px;
-            font-size: 14px;
+            border: 1px solid #58a6ff;
+            font-size: 0.9rem;
         }
 
         .button:hover {
-            background-color: #003d80;
+            background-color: #30363d;
         }
 
-        .section {
-            margin-bottom: 30px;
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #8b949e;
+        }
+
+        footer a {
+            color: #58a6ff;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <header class="header">
+        <header>
             <img src="pic.jpeg" alt="Debasish Hazarika">
-            <div>
-                <h1>Debasish Hazarika</h1>
-                <p>Email: <a href="mailto:debasish.academic@gmail.com">debasish.academic@gmail.com</a></p>
-                <p>Email: <a href="mailto:debasish.academic@gmail.com">debasish.academic@gmail.com</a></p>
-                <p>Phone: +56 931 062 687 (CL) | +91 8749 856373 (IN)</p>
-            </div>
+            <h1>Debasish Hazarika</h1>
+            <p>Ph.D. Researcher | Astronomy | Data Science Enthusiast</p>
         </header>
 
-        <section class="section">
+        <section>
             <h2>About Me</h2>
-            <p>Ph.D. researcher at INCT-UDA, Chile, specializing in variable stars, Galactic structure, and Milky Way chemodynamics. Contributing to large-scale astronomical surveys including S-PLUS and TESS.</p>
+            <p>I’m a Ph.D. researcher in Astronomy at the University of Atacama, Chile. My work focuses on variable stars, Galactic structure, and the chemodynamics of the Milky Way using data from surveys like S-PLUS and GAIA. I'm also experienced with data science techniques and passionate about applying data-driven solutions to research and real-world challenges.</p>
         </section>
 
-        <section class="section">
-            <h2>Education</h2>
+        <section>
+            <h2>Skills</h2>
             <ul>
-                <li><strong>Ph.D. in Astronomy</strong> (Expected 2026)<br>University of Atacama, Chile</li>
-                <li><strong>M.S. in Physical Science</strong> (2018)<br>Gauhati University, India</li>
-                <li><strong>B.S. in Physical Science</strong> (2016)<br>Gauhati University, India</li>
+                <li><strong>Astronomy:</strong> Photometry, Spectroscopy, Stellar Pulsation</li>
+                <li><strong>Programming:</strong> Python, IDL, Fortran, R, Bash</li>
+                <li><strong>Data Science:</strong> Machine Learning, Deep Learning, Astro-statistics</li>
+                <li><strong>Tools:</strong> IRAF, DS9, Phoebe, Cloudy, TOPCAT</li>
             </ul>
         </section>
 
-        <section class="section">
+        <section>
+            <h2>Current Work</h2>
+            <ul>
+                <li>Developing methods for stellar parameter estimation using S-PLUS photometry</li>
+                <li>Investigating the structure and dynamics of the Milky Way</li>
+                <li>Exploring advanced data science techniques for time-series analysis</li>
+            </ul>
+        </section>
+
+        <section>
             <h2>Publications</h2>
             <ul>
                 <li><strong>ASIVA – Platform for observational and computational analysis of stellar variables</strong> (2024) DOI: <a href="https://doi.org/10.1016/j.newast.2024.102232" target="_blank">10.1016/j.newast.2024.102232</a></li>
                 <li><strong>Mapping Hα-excess candidates using S-PLUS</strong> (2025) AAA (in press)</li>
                 <li><strong>Stellar parameters and abundances from S-PLUS</strong> (2025) AAA (in press)</li>
             </ul>
-            <a href="https://ui.adsabs.harvard.edu/your-ads-link" class="button" target="_blank">ADS</a>
-            <a href="https://orcid.org/your-orcid-id" class="button" target="_blank">ORCID</a>
         </section>
 
-        <section class="section">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Astronomy: Photometry, Spectroscopy, Stellar pulsation</li>
-                <li>Programming: Python, IDL, Fortran</li>
-                <li>Tools: IRAF, DS9, Phoebe</li>
-            </ul>
-        </section>
-
-        <section class="section">
+        <section>
             <h2>Contact</h2>
-            <p>Chile: Bernardo O'Higgins 9, Copiapó<br>India: Jarabari, Assam</p>
+            <p>Email: <a href="mailto:debasish.academic@gmail.com">debasish.academic@gmail.com</a></p>
+            <p>Phone: +56 931 062 687 (CL) | +91 8749 856373 (IN)</p>
+            <a href="https://github.com/DebasishHazarika" class="button" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://x.com/73Debasish" class="button" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="https://linkedin.com/in/debasish-hazarika" class="button" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://orcid.org/your-orcid-id" class="button" target="_blank"><i class="fas fa-id-card"></i> ORCID</a>
         </section>
+
+        <footer>
+            <p>© 2025 Debasish Hazarika | Built with ❤️</p>
+        </footer>
     </div>
 </body>
 
