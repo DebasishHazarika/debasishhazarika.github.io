@@ -14,28 +14,33 @@
             margin: 0;
             padding: 20px;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             min-height: 100vh;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 1000px;
             background-color: #fff;
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            gap: 30px;
         }
 
-        .text-section,
+        .text-section {
+            flex: 3;
+        }
+
         .photo-section {
-            width: 100%;
+            flex: 1;
+            text-align: center;
         }
 
         img {
-            max-width: 100%;
+            max-width: 150px;
             border-radius: 12px;
             margin-top: 20px;
         }
@@ -64,19 +69,32 @@
             margin-bottom: 8px;
         }
 
-        @media (min-width: 600px) {
-            .container {
-                flex-direction: row;
-            }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
 
-            .text-section {
-                flex: 1;
-                padding-right: 30px;
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
             }
 
             .photo-section {
-                flex: 1;
-                text-align: center;
+                order: -1;
+            }
+
+            img {
+                max-width: 120px;
             }
         }
     </style>
@@ -126,11 +144,18 @@
 
             <section>
                 <h2>Publications</h2>
+                <p>7 papers in AAA, ApJ, New Astronomy (5 published, 2 in press)</p>
+                <p>Recent: "ASIVA Platform" (New Astronomy, 2024)</p>
                 <ul>
-                    <li>7 papers in AAA, ApJ, New Astronomy (5 published, 2 in press)<br>
-                        Recent: "ASIVA Platform" (New Astronomy, 2024)</li>
-                    <li>5 conference proceedings & 3 poster presentations</li>
+                    <li><strong>Mapping Hα-excess candidate point Sources in the southern hemisphere using S-PLUS data</strong> - L. A. Gutierrez-Soto et al. (+D. Hazarika) (2025) - AAA (in press)</li>
+                    <li><strong>Stellar atmospheric parameters and chemical abundances of ∼ 5 million stars from S-PLUS multi-band photometry</strong> - C. E. Ferreira Lopes et al. (+D. Hazarika) (2025) - AAA (in press)</li>
+                    <li><strong>ASIVA – Platform for observational and computational analysis of stellar variables</strong> - Saleh, P. R., Singh, T., Hazarika, D., et al. 2024, New Astronomy, 111, 102232. DOI: 10.1016/j.newast.2024.102232 (published)</li>
+                    <li><strong>Pulsation in TESS objects of interest</strong> - R. L. Gomes et al. (+D. Hazarika) (2024) Astrophysical Journal (ApJ) 961 55 - AJ. DOI: 10.3847/1538-4357/ad0b0a (published)</li>
+                    <li><strong>An innovative tool for automating classification of stellar variability through nonlinear data analytics</strong> - Syjemlieh, R., Saleh, P. R., Hazarika, D., & Saikia, E. (2023), Astronomy and Computing, 45, 100763. DOI: 10.1016/j.ascom.2023.100763 (published)</li>
+                    <li><strong>Binary star detection in the Open Cluster King 1 field</strong> - Saleh P., Hazarika D., Dar A.A., Parihar P.S., & Saikia E. (2020) - RAA 2020 Vol. 20 No. 3, 43(7pp). DOI: 10.1088/1674-4527/20/3/43 (published)</li>
+                    <li><strong>Recovering Signals in CoRoT Mission (RSCoRoT-I): Short Period Variable Stars</strong> - C. E. Ferreira Lopes et al. (+D. Hazarika) (2025) - AAA (in review)</li>
                 </ul>
+                <p>5 conference proceedings & 3 poster presentations</p>
             </section>
 
             <section>
@@ -148,6 +173,8 @@
                    📍 India: Jarabari, North Lakhimpur, Assam<br>
                    ✉️ debasish.academic@gmail.com<br>
                    📱 +56 931 062 687 (CL) | +91 8749 856373 (IN)</p>
+                <a href="https://orcid.org/your-orcid-id" class="button" target="_blank">ORCID</a>
+                <a href="https://ui.adsabs.harvard.edu/your-ads-link" class="button" target="_blank">ADS</a>
             </section>
         </div>
         
