@@ -16,13 +16,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
         }
 
         .container {
             max-width: 800px;
             background-color: #fff;
-            padding: 20px;
+            padding: 30px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             display: flex;
@@ -37,14 +37,31 @@
         img {
             max-width: 100%;
             border-radius: 12px;
+            margin-top: 20px;
         }
 
         h1 {
             color: #007bff;
+            margin-bottom: 5px;
         }
 
         h2 {
             color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
         }
 
         @media (min-width: 600px) {
@@ -54,7 +71,7 @@
 
             .text-section {
                 flex: 1;
-                padding-right: 20px;
+                padding-right: 30px;
             }
 
             .photo-section {
@@ -70,31 +87,70 @@
         <div class="text-section">
             <header>
                 <h1>Debasish Hazarika</h1>
-                <h2>Astronomer</h2>
+                <h2>Ph.D. Candidate in Astronomy</h2>
             </header>
+
             <section>
                 <h2>About Me</h2>
-                <p>An astronomy Ph.D. researcher working at INCT-UDA, Chile, in the domain of Variable Star astronomy and Chemo-dynamics of Milky-Way.</p>
+                <p>Ph.D. researcher at INCT-UDA, Chile, specializing in variable stars, Galactic structure, and Milky Way chemodynamics. Contributing to large-scale astronomical surveys including S-PLUS and TESS.</p>
             </section>
 
             <section>
-                <h2>Academic</h2>
-                <p>BS-MS in Physical Science, Gauhati University, 2018</p>
-                <p>PhD in Astronomy (Pursuing), INCT-UDA, 2026 (expected)</p>
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>Ph.D. in Astronomy</strong> (Expected 2026)<br>
+                        University of Atacama, Chile<br>
+                        Thesis: Variable Star | Galactic Astronomy | Milky Way Structure and Chemodynamics</li>
+                    
+                    <li><strong>M.S. in Physical Science</strong> (2018)<br>
+                        Gauhati University, India · CGPA: 8.13/10 (1st Rank)</li>
+                    
+                    <li><strong>B.S. in Physical Science</strong> (2016)<br>
+                        Gauhati University, India · CGPA: 8.21/10 (1st Rank)</li>
+                </ul>
             </section>
 
             <section>
-                <h2>Research Interests</h2>
-                <p>Variable Stars</p>
-                <p>Milky Way</p>
+                <h2>Research Experience</h2>
+                <ul>
+                    <li><strong>Visiting Research Student</strong> (PUC Chile, 2023-24)<br>
+                        - Multiband Cepheid variable star analysis</li>
+                    
+                    <li><strong>Research Assistant</strong> (TEQIP-III, 2018-20)<br>
+                        - ASIVA software development & observational astronomy</li>
+                    
+                    <li><strong>KOVID Labs Intern</strong> (2018)<br>
+                        - Developed ML models for speech recognition</li>
+                </ul>
             </section>
 
             <section>
-                <h2>Contact Information</h2>
-                <p>Address: Debasish Hazarika, vill+po jarabari, dist lakhimpur, Assam, India</p>
-                <p>EMail: debasish.academic@gmail.com </p>
+                <h2>Publications</h2>
+                <ul>
+                    <li>7 papers in AAA, ApJ, New Astronomy (5 published, 2 in press)<br>
+                        Recent: "ASIVA Platform" (New Astronomy, 2024)</li>
+                    <li>5 conference proceedings & 3 poster presentations</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>Astronomy: Photometry, Spectroscopy, Stellar pulsation</li>
+                    <li>Programming: Python, IDL, Fortran, Machine Learning</li>
+                    <li>Tools: IRAF, DS9, Phoebe, Cloudy, TOPCAT</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Contact</h2>
+                <p>📍 Chile: Bernardo O'Higgins 9, Copiapó<br>
+                   📍 India: Jarabari, North Lakhimpur, Assam<br>
+                   ✉️ debasish.academic@gmail.com<br>
+                   📱 +56 931 062 687 (CL) | +91 8749 856373 (IN)</p>
             </section>
         </div>
+        
         <div class="photo-section">
             <img src="pic.jpeg" alt="Debasish Hazarika">
         </div>
