@@ -9,59 +9,51 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f9f9f9;
             color: #333;
             margin: 0;
             padding: 20px;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            min-height: 100vh;
+            line-height: 1.6;
         }
 
         .container {
             max-width: 1000px;
-            background-color: #fff;
+            background-color: #ffffff;
+            margin: 0 auto;
             padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
             display: flex;
-            flex-direction: row;
-            gap: 30px;
+            align-items: center;
+            gap: 20px;
         }
 
-        .text-section {
-            flex: 3;
-        }
-
-        .photo-section {
-            flex: 1;
-            text-align: center;
-        }
-
-        img {
-            max-width: 150px;
-            border-radius: 12px;
-            margin-top: 20px;
+        .header img {
+            border-radius: 10px;
+            max-width: 120px;
         }
 
         h1 {
-            color: #007bff;
-            margin-bottom: 5px;
+            color: #0056b3;
         }
 
         h2 {
-            color: #333;
-            border-bottom: 2px solid #007bff;
+            color: #444;
+            border-bottom: 2px solid #0056b3;
             padding-bottom: 5px;
-            margin-top: 25px;
+            margin-top: 30px;
         }
 
-        section {
-            margin-bottom: 25px;
+        p {
+            text-align: justify;
         }
 
         ul {
+            list-style: disc;
             padding-left: 20px;
         }
 
@@ -69,11 +61,20 @@
             margin-bottom: 8px;
         }
 
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         .button {
             display: inline-block;
             padding: 10px 20px;
-            margin: 10px 5px;
-            background-color: #007bff;
+            margin: 5px 0;
+            background-color: #0056b3;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -81,106 +82,65 @@
         }
 
         .button:hover {
-            background-color: #0056b3;
+            background-color: #003d80;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-            }
-
-            .photo-section {
-                order: -1;
-            }
-
-            img {
-                max-width: 120px;
-            }
+        .section {
+            margin-bottom: 30px;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="text-section">
-            <header>
+        <header class="header">
+            <img src="pic.jpeg" alt="Debasish Hazarika">
+            <div>
                 <h1>Debasish Hazarika</h1>
                 <h2>Ph.D. Candidate in Astronomy</h2>
-            </header>
+                <p>Email: <a href="mailto:debasish.academic@gmail.com">debasish.academic@gmail.com</a></p>
+                <p>Phone: +56 931 062 687 (CL) | +91 8749 856373 (IN)</p>
+            </div>
+        </header>
 
-            <section>
-                <h2>About Me</h2>
-                <p>Ph.D. researcher at INCT-UDA, Chile, specializing in variable stars, Galactic structure, and Milky Way chemodynamics. Contributing to large-scale astronomical surveys including S-PLUS and TESS.</p>
-            </section>
+        <section class="section">
+            <h2>About Me</h2>
+            <p>Ph.D. researcher at INCT-UDA, Chile, specializing in variable stars, Galactic structure, and Milky Way chemodynamics. Contributing to large-scale astronomical surveys including S-PLUS and TESS.</p>
+        </section>
 
-            <section>
-                <h2>Education</h2>
-                <ul>
-                    <li><strong>Ph.D. in Astronomy</strong> (Expected 2026)<br>
-                        University of Atacama, Chile<br>
-                        Thesis: Variable Star | Galactic Astronomy | Milky Way Structure and Chemodynamics</li>
-                    
-                    <li><strong>M.S. in Physical Science</strong> (2018)<br>
-                        Gauhati University, India · CGPA: 8.13/10 (1st Rank)</li>
-                    
-                    <li><strong>B.S. in Physical Science</strong> (2016)<br>
-                        Gauhati University, India · CGPA: 8.21/10 (1st Rank)</li>
-                </ul>
-            </section>
+        <section class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Ph.D. in Astronomy</strong> (Expected 2026)<br>University of Atacama, Chile</li>
+                <li><strong>M.S. in Physical Science</strong> (2018)<br>Gauhati University, India</li>
+                <li><strong>B.S. in Physical Science</strong> (2016)<br>Gauhati University, India</li>
+            </ul>
+        </section>
 
-            <section>
-                <h2>Research Experience</h2>
-                <ul>
-                    <li><strong>Visiting Research Student</strong> (PUC Chile, 2023-24)<br>
-                        - Multiband Cepheid variable star analysis</li>
-                    
-                    <li><strong>Research Assistant</strong> (TEQIP-III, 2018-20)<br>
-                        - ASIVA software development & observational astronomy</li>
-                    
-                    <li><strong>KOVID Labs Intern</strong> (2018)<br>
-                        - Developed ML models for speech recognition</li>
-                </ul>
-            </section>
+        <section class="section">
+            <h2>Publications</h2>
+            <ul>
+                <li><strong>ASIVA – Platform for observational and computational analysis of stellar variables</strong> (2024) DOI: <a href="https://doi.org/10.1016/j.newast.2024.102232" target="_blank">10.1016/j.newast.2024.102232</a></li>
+                <li><strong>Mapping Hα-excess candidates using S-PLUS</strong> (2025) AAA (in press)</li>
+                <li><strong>Stellar parameters and abundances from S-PLUS</strong> (2025) AAA (in press)</li>
+            </ul>
+            <a href="https://ui.adsabs.harvard.edu/your-ads-link" class="button" target="_blank">ADS</a>
+            <a href="https://orcid.org/your-orcid-id" class="button" target="_blank">ORCID</a>
+        </section>
 
-            <section>
-                <h2>Publications</h2>
-                <p>7 papers in AAA, ApJ, New Astronomy (5 published, 2 in press)</p>
-                <p>Recent: "ASIVA Platform" (New Astronomy, 2024)</p>
-                <ul>
-                    <li><strong>Mapping Hα-excess candidate point Sources in the southern hemisphere using S-PLUS data</strong> - L. A. Gutierrez-Soto et al. (+D. Hazarika) (2025) - AAA (in press)</li>
-                    <li><strong>Stellar atmospheric parameters and chemical abundances of ∼ 5 million stars from S-PLUS multi-band photometry</strong> - C. E. Ferreira Lopes et al. (+D. Hazarika) (2025) - AAA (in press)</li>
-                    <li><strong>ASIVA – Platform for observational and computational analysis of stellar variables</strong> - Saleh, P. R., Singh, T., Hazarika, D., et al. 2024, New Astronomy, 111, 102232. DOI: 10.1016/j.newast.2024.102232 (published)</li>
-                    <li><strong>Pulsation in TESS objects of interest</strong> - R. L. Gomes et al. (+D. Hazarika) (2024) Astrophysical Journal (ApJ) 961 55 - AJ. DOI: 10.3847/1538-4357/ad0b0a (published)</li>
-                    <li><strong>An innovative tool for automating classification of stellar variability through nonlinear data analytics</strong> - Syjemlieh, R., Saleh, P. R., Hazarika, D., & Saikia, E. (2023), Astronomy and Computing, 45, 100763. DOI: 10.1016/j.ascom.2023.100763 (published)</li>
-                    <li><strong>Binary star detection in the Open Cluster King 1 field</strong> - Saleh P., Hazarika D., Dar A.A., Parihar P.S., & Saikia E. (2020) - RAA 2020 Vol. 20 No. 3, 43(7pp). DOI: 10.1088/1674-4527/20/3/43 (published)</li>
-                    <li><strong>Recovering Signals in CoRoT Mission (RSCoRoT-I): Short Period Variable Stars</strong> - C. E. Ferreira Lopes et al. (+D. Hazarika) (2025) - AAA (in review)</li>
-                </ul>
-                <p>5 conference proceedings & 3 poster presentations</p>
-            </section>
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Astronomy: Photometry, Spectroscopy, Stellar pulsation</li>
+                <li>Programming: Python, IDL, Fortran</li>
+                <li>Tools: IRAF, DS9, Phoebe</li>
+            </ul>
+        </section>
 
-            <section>
-                <h2>Technical Skills</h2>
-                <ul>
-                    <li>Astronomy: Photometry, Spectroscopy, Stellar pulsation</li>
-                    <li>Programming: Python, IDL, Fortran, Machine Learning</li>
-                    <li>Tools: IRAF, DS9, Phoebe, Cloudy, TOPCAT</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Contact</h2>
-                <p>📍 Chile: Bernardo O'Higgins 9, Copiapó<br>
-                   📍 India: Jarabari, North Lakhimpur, Assam<br>
-                   ✉️ debasish.academic@gmail.com<br>
-                   📱 +56 931 062 687 (CL) | +91 8749 856373 (IN)</p>
-                <a href="https://orcid.org/your-orcid-id" class="button" target="_blank">ORCID</a>
-                <a href="https://ui.adsabs.harvard.edu/your-ads-link" class="button" target="_blank">ADS</a>
-            </section>
-        </div>
-        
-        <div class="photo-section">
-            <img src="pic.jpeg" alt="Debasish Hazarika">
-        </div>
+        <section class="section">
+            <h2>Contact</h2>
+            <p>Chile: Bernardo O'Higgins 9, Copiapó<br>India: Jarabari, Assam</p>
+        </section>
     </div>
 </body>
 
