@@ -44,7 +44,7 @@ I was born and raised in <strong>Assam, India</strong>, a state in northeastern 
 </p>
 
 <p>
-Outside research, I enjoy distance running, cricket, programming, and discussions on mathematics, philosophy, and spirituality. Earlier in life, I spent many years drawing, painting, and creating digital art. Although research now occupies most of my time, I continue to value creativity as an important part of scientific thinking and problem solving.
+Outside research, I enjoy distance running, cricket, programming, and discussions on mathematics, philosophy, and spirituality. Earlier in life, I spent many years painting, and creating digital art. Although research now occupies most of my time, I continue to value creativity as an important part of scientific thinking and problem solving.
 </p>
 
 <p>
