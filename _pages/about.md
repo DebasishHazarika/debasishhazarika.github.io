@@ -1,20 +1,70 @@
 ---
 permalink: /
-title: 
+title:
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
 <div class="justify">
 
-I am a final-year Ph.D. researcher in Astronomy at **INCT-UDA, Chile**. My research focuses on the **structure, extinction, and stellar populations of the Milky Way and the Magellanic Clouds** using **large-scale multi-band sky surveys**. I primarily work with data from surveys such as **S-PLUS**, **VVV/VVVX**, **Gaia**, **OGLE**, **APOGEE**, **GALAH**, and **LAMOST**, complemented by my own PI-led observations obtained with telescopes including **Gemini**, **T80S**, and **HCT**.
+<p>
+I am a final-year <strong>Ph.D. candidate in Astronomy</strong> at the <strong>Institute of Astronomy and Planetary Science (INCT), University of Atacama, Chile</strong>, and currently a <strong>Visiting Researcher at NSF NOIRLab, Tucson, Arizona</strong>. My research focuses on understanding the <strong>structure, stellar populations, and evolution of the Milky Way, the Magellanic Clouds, and nearby dwarf galaxies</strong> through observations from modern wide-field astronomical surveys. I combine observational astronomy with data science, statistical inference, and machine learning to study galaxies and stellar populations across a wide range of scales.
+</p>
 
-My work combines observational astronomy, data science, and statistical analysis to extract physical information from massive astronomical datasets. I have experience in large-scale data analysis, machine learning, workflow automation, and scientific software development. I enjoy building data-driven solutions that address both fundamental research questions and practical analytical challenges.
+<p>
+My work primarily utilizes data from large photometric and spectroscopic surveys, including <strong>S-PLUS, Gaia, VVV/VVVX, OGLE, APOGEE, GALAH, LAMOST</strong>, and <strong>DESI</strong>. These are complemented by my own PI-led observing programs using facilities such as the <strong>Gemini Observatory</strong>, <strong>T80 South Telescope</strong>, and the <strong>Himalayan Chandra Telescope</strong>. I develop automated pipelines capable of processing millions of astronomical sources to derive physical parameters, identify rare stellar populations, and discover faint nearby dwarf galaxies.
+</p>
 
-I was born and raised in **Assam, India**, a beautiful state in northeastern India known for its lush landscapes, the mighty **Brahmaputra River** (the only male river of India), tea gardens, remarkable biodiversity, and vibrant cultural heritage. Growing up in this environment nurtured my curiosity about nature and, eventually, the universe.
-
-Outside research, I enjoy playing cricket, distance running, programming, and long conversations about mathematics, philosophy, and spirituality. Earlier in life, I also spent countless hours drawing, painting, and creating digital art. Although research has gradually replaced my artistic pursuits over the past few years, I still appreciate creativity as an essential part of how I think, solve problems, and understand the world.
+<p>
+My research lies at the intersection of astronomy, statistics, and scientific computing. I enjoy building scalable, reproducible tools that transform large astronomical datasets into meaningful scientific discoveries.
+</p>
 
 </div>
+
+### Selected Highlights
+
+- Ph.D. Candidate in Astronomy, University of Atacama, Chile
+- Visiting Researcher, NSF NOIRLab, Tucson, Arizona, USA
+- Principal Investigator of approximately **115 hours** of awarded telescope time
+- Research spanning the Milky Way, the Magellanic Clouds, and nearby dwarf galaxies
+- Extensive experience with Gaia, DESI, S-PLUS, VVV/VVVX, OGLE, APOGEE, GALAH, and LAMOST
+- Developing machine-learning methods for stellar populations and dwarf-galaxy discovery
+
+### Current Research
+
+- **Variables in S-PLUS:** Developing the first narrow-band Period-Luminosity relations and reddening maps of Classical Cepheids in the Magellanic Clouds.
+- **Nearby Dwarf Galaxies:** Developing machine-learning and citizen-science pipelines to discover ultra-faint dwarf galaxies in DESI imaging.
+- **Milky Way Structure:** Identifying new low-extinction windows and investigating the structure and chemodynamics of the Galactic disk and bulge.
+- **Stellar Parameters:** Estimating stellar atmospheric parameters and chemical abundances from multi-band photometric surveys using machine-learning techniques.
+- **Observational Astronomy:** Leading photometric and spectroscopic observing programs with Gemini South and the T80 South Telescope.
+
+### Research Interests
+
+- Galactic Structure and Stellar Populations
+- Magellanic Clouds and Nearby Dwarf Galaxies
+- Variable Stars (Classical Cepheids and RR Lyrae)
+- Time-Domain Astronomy
+- Large Astronomical Surveys
+- Machine Learning for Astronomy
+- Astrostatistics
+- Scientific Software Development
+
+
+
+### About Me
+
+<p>
+I was born and raised in <strong>Assam, India</strong>, a state in northeastern India known for its lush landscapes, tea gardens, remarkable biodiversity, and the mighty <strong>Brahmaputra River</strong>. Growing up in this environment nurtured my curiosity about nature, which gradually evolved into a fascination with astronomy and the physical universe.
+</p>
+
+<p>
+Outside research, I enjoy distance running, cricket, programming, and discussions on mathematics, philosophy, and spirituality. Earlier in life, I spent many years drawing, painting, and creating digital art. Although research now occupies most of my time, I continue to value creativity as an important part of scientific thinking and problem solving.
+</p>
+
+<p>
+I am always interested in collaborations involving astronomy, data science, machine learning, and scientific computing. If you would like to discuss research, explore potential collaborations, or simply connect, feel free to contact me at <a href="mailto:debasish.academic@gmail.com">debasish.academic@gmail.com</a>.
+</p>
+
+<div class="justify">
