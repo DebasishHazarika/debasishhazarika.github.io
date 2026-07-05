@@ -23,37 +23,21 @@ My research lies at the intersection of astronomy, statistics, and scientific co
 
 </div>
 
-### Selected Highlights
+<h3 class="color-heading">Career Highlights</h3>
 
 - Ph.D. Candidate in Astronomy, University of Atacama, Chile
 - Visiting Researcher, NSF NOIRLab, Tucson, Arizona, USA
-- Principal Investigator of approximately **115 hours** of awarded telescope time
+- PI & Co-I of **115 hours+** of awarded telescope time
 - Research spanning the Milky Way, the Magellanic Clouds, and nearby dwarf galaxies
 - Extensive experience with Gaia, DESI, S-PLUS, VVV/VVVX, OGLE, APOGEE, GALAH, and LAMOST
 - Developing machine-learning methods for stellar populations and dwarf-galaxy discovery
 
-### Current Research
+<h3 class="color-heading">Research Interests</h3>
 
-- **Variables in S-PLUS:** Developing the first narrow-band Period-Luminosity relations and reddening maps of Classical Cepheids in the Magellanic Clouds.
-- **Nearby Dwarf Galaxies:** Developing machine-learning and citizen-science pipelines to discover ultra-faint dwarf galaxies in DESI imaging.
-- **Milky Way Structure:** Identifying new low-extinction windows and investigating the structure and chemodynamics of the Galactic disk and bulge.
-- **Stellar Parameters:** Estimating stellar atmospheric parameters and chemical abundances from multi-band photometric surveys using machine-learning techniques.
-- **Observational Astronomy:** Leading photometric and spectroscopic observing programs with Gemini South and the T80 South Telescope.
-
-### Research Interests
-
-- Galactic Structure and Stellar Populations
-- Magellanic Clouds and Nearby Dwarf Galaxies
-- Variable Stars (Classical Cepheids and RR Lyrae)
-- Time-Domain Astronomy
-- Large Astronomical Surveys
-- Machine Learning for Astronomy
-- Astrostatistics
-- Scientific Software Development
+Galactic Structure and Stellar Populations • Magellanic Clouds and Nearby Dwarf Galaxies • Variable Stars (Cepheids and RR Lyrae) • Time-Domain Astronomy • Large Astronomical Surveys • Machine Learning for Astronomy • Astrostatistics • Scientific Tools/Software Development
 
 
-
-### About Me
+<h3 class="color-heading">..on a personal note</h3>
 
 <p>
 I was born and raised in <strong>Assam, India</strong>, a state in northeastern India known for its lush landscapes, tea gardens, remarkable biodiversity, and the mighty <strong>Brahmaputra River</strong>. Growing up in this environment nurtured my curiosity about nature, which gradually evolved into a fascination with astronomy and the physical universe.

@@ -26,7 +26,7 @@ author:
   avatar           : "pic_debasish.jpg"
   name             : "Debasish Hazarika"
   pronouns         : "His/Him/His" 
-  bio              : "Astronomer • Large Sky Surveys • Variable Stars • Dwarf Galaxies"
+  bio              : "Astronomer • Large Surveys • Variable Stars • Dwarf Galaxies • Data Science • Astrostatistics"
   location         : "Tucson, Arizona, USA"
   employer         : "Steward Observatory, UofA"
   uri              : # your website
@@ -58,7 +58,6 @@ author:
   # Social media
   artstation       : # Username
   bluesky          : # Replace this with you Bluesky username
-  facebook         : "https://www.facebook.com/debasish.hazarika.73"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -66,7 +65,8 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "hazarikadebasish"
+  facebook         : "debasish.hazarika.73"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

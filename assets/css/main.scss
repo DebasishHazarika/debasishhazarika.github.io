@@ -83,3 +83,20 @@ html[data-theme="dark"] .page__footer {
     overflow-x: hidden;
 }
 
+
+/* ---------- Cyan color on some headers ---------- */
+.color-heading {
+    color: #1c8ac5;
+}
+
+html[data-theme="dark"] .color-heading {
+    color: #5ce4f6;
+}
+
+.author__name {
+    color: #1c8ac5;
+}
+
+html[data-theme="dark"] .author__name {
+    color: #5ce4f6;
+}
