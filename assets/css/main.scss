@@ -47,3 +47,21 @@
 .page__content p {
     text-align: justify;
 }
+
+/* Footer styling */
+
+.page__footer {
+    text-align: right;
+    font-size: 0.72em;
+    color: #555;
+    padding-top: 0.05em;
+    padding-bottom: 0.05em;
+}
+
+html[data-theme="dark"] .page__footer {
+    color: #d0d0d0;
+}
+
+.page__footer-follow {
+    display: none;
+}
