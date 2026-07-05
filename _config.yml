@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Deb's folio" # Update this with the title of your site
+title                    : "Deb's hub" # Update this with the title of your site
 title_separator          : "-"
 name                     : &name "Debasish Hazarika"
 description              : &description "Debasish Hazarika's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -28,7 +28,7 @@ author:
   pronouns         : "His/Him/His" 
   bio              : "Astronomer • Data Scientist • Large Sky Surveys • Machine Learning • Variable Stars • Dwarf Galaxies"
   location         : "Tucson, Arizona, USA"
-  employer         : "Steward Observatory, University of Arizona"
+  employer         : "Steward Observatory, UofA"
   uri              : "debasishhazarika.github.io"
   email            : "debasish.academic@gmail.com" 
 
