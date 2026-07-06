@@ -10,7 +10,7 @@ redirect_from:
 <div class="justify">
 
 <p>
-I am a final-year <strong>Ph.D. candidate in Astronomy</strong> at the <strong>Institute of Astronomy and Planetary Science (INCT), University of Atacama, Chile</strong>, and currently a <strong>Visiting Researcher at NSF NOIRLab, Tucson, Arizona</strong>. My research focuses on understanding the <strong>structure, stellar populations, and evolution of the Milky Way, the Magellanic Clouds, and nearby dwarf galaxies</strong> through observations from modern wide-field astronomical surveys. I combine observational astronomy with data science, statistical inference, and machine learning to study galaxies and stellar populations across a wide range of scales.
+Hi, welocme! I am a final-year <strong>Ph.D. candidate in Astronomy</strong> at the <strong>Institute of Astronomy and Planetary Science (INCT), University of Atacama, Chile</strong>, and currently a <strong>Visiting Researcher at NSF NOIRLab, Tucson, Arizona</strong>. My research focuses on understanding the <strong>structure, stellar populations, and evolution of the Milky Way, the Magellanic Clouds, and nearby dwarf galaxies</strong> through observations from modern wide-field astronomical surveys. I combine observational astronomy with data science, statistical inference, and machine learning to study galaxies and stellar populations across a wide range of scales.
 </p>
 
 <p>
